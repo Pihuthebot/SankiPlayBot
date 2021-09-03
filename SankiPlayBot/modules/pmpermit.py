@@ -17,8 +17,17 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hεllö, тнıs ıs α мυsıc αssısтαηт sєяѵıcє.\n\n ❗️ Rυłєs:\n   - Nσ cнαттıηg αłłσωєd\n   - Nσ sραм αłłσωєd \n\n 👉 **Sєηd yσυя gяσυρ ıηѵıтє łıηk σя υsєяηαмє нєяє @BrandSanki ıf υsєявσт cαη'т jσıη yσυя gяσυρ.**\n\n ⚠️ Dıscłαмєя: ıf yσυ ηєєd αηy нєłρ тнєη jσıη sυρρσят gяσυρ :- @BrandSanki\n    - Dση'т αdd тнıs υsєя тσ sєcяєт gяσυρs.\n   - Dση'т sнαяє ρяıѵαтє ıηfσ нєяє\n\n",
-            )
+                "Hεllö, тнıs ıs α мυsıc αssısтαηт sєяѵıcє.\n\n ❗️ Rυłєs:\n   - Nσ cнαттıηg αłłσωєd\n   - Nσ sραм αłłσωєd \n\n  Dση'т sнαяє ρяıѵαтє ıηfσ нєяє\n\n",
+                
+                """
+                buttons = [
+    [
+        InlineKeyboardButton(
+            text="➕️ ѕυρρσят gяσυρ ➕️", url="t.me/HydraOT"),
+    ],
+    [       
+       InlineKeyboardButton(
+            text="ѕυρρσят ¢нαηηєℓ", url=f"https://t.me/HydraSupportOfficial}"
             return
 
     
